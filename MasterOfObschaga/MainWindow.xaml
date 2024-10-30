@@ -1,0 +1,14 @@
+﻿<Window x:Class="MasterOfObschaga.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MasterOfObschaga" KeyDown="Window_KeyDown" Height="400" Width="400">
+    <Grid>
+        <Canvas Name="GameCanvas" Background="LightGray">
+            <Ellipse Name="PlayerUnit" Width="20" Height="20" Fill="Blue" />
+        </Canvas>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+            <Button Content="Exit" Click="ExitGame" />
+        </StackPanel>
+    </Grid>
+</Window>
+
